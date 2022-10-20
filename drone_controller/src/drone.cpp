@@ -165,6 +165,7 @@ int main(int argc, char** argv)
         drones[0].SpecializeFirstDroneParams();
     }else
     {
+        // for creating a swarm of quadrotors
         drones[0].SpecializeFirstDroneParams();
         for(int i = 1; i < client_number; i++)
         {
